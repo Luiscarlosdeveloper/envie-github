@@ -15,13 +15,35 @@
             max-width: 100%;
             vertical-align: top;
         }
+
+        .banner{
+                display:none;
+            }
+
+            .footer{
+                display: none;
+            }
+
+
+        @media screen and ( max-width: 768px ){
+            .footer,  .banner{
+                display: block;
+            }
+            .banner2{
+                display:none;
+            }
+
+        }
     </style>
 
 </head>
 <body>
-    <img src="banner.jpg" alt="banner">
+    <img src="guittarra-electrica.jpg" alt="banner" class="banner">
+    <img src="banner.jpg" alt="banner" class="banner2">
     <img src="guitarra.jpg" alt="banner">
-    <img src="header-img.jpg" alt="banner">
+    <img src="header-img.jpg" alt="banner" class="banner2">
+    <img src="footer.jpg" alt="banner" class="footer">
+
 
 </body>
 </html>
